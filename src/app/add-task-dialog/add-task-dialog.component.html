@@ -1,0 +1,11 @@
+<h2 mat-dialog-title>Add Task!</h2>
+<mat-dialog-content>
+  <mat-form-field appearance="fill">
+    <mat-label>Task</mat-label>
+    <input matInput #task />
+  </mat-form-field>
+</mat-dialog-content>
+<mat-dialog-actions style="margin-bottom: 10px;">
+  <button mat-raised-button [mat-dialog-close]="task.value" color="accent">Add Task</button>
+  <button mat-raised-button mat-dialog-close color="warn">Cancel</button>
+</mat-dialog-actions>

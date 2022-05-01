@@ -1,0 +1,25 @@
+.todo__container {
+  background-color: rgba(126, 24, 174, 0.466);
+  border-radius: 14px;
+  padding: 10px;
+  box-shadow: -1px -1px 67px -4px rgba(0, 0, 0, 0.75);
+  height: 90%;
+  width: 600px;
+}
+h1 {
+  text-align: center;
+  line-height: 4rem;
+}
+
+@media (min-width: 640px) { .todo__container {
+  width: 600px;
+  height: 800px;
+} }
+@media (min-width:360px) {.todo__container {
+  width: 300px;
+  height: 600px;
+} }
+@media (min-width:1100px) { .todo__container {
+  width: 800px;
+  height: 500px;
+} }
